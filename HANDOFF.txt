@@ -3,9 +3,11 @@ TIDELINE TOW - 12 NOVEMBER 2026
 Playable Android prototype: steer a tug, grow a visible convoy, bring boats home. Thirty contracts, three districts, endless/daily modes, offline progress, upgrades, daily gifts/goals, 20 achievements and 3 leaderboards. Original music and generated branding complement licensed Kenney models, UI, stars and sounds.
 
 Source: https://github.com/EthannYakabuski/tideline-tow
+Play: https://ethannyakabuski.github.io/tideline-tow/play/
+Review: https://ethannyakabuski.github.io/tideline-tow/review/
 Tested runtime: 7b001133ef71903209ec713c1dd3e4218334d329
 Canonical runtime Git-blob SHA256: 4f97ff49af249f70c693119aeba99f0ec7eb1e8afadf49e5fdde0cc6ba5672ba
-Previously verified public revision: 50e24032ddacc03b73b16cf0ebba29ab2c59874b; CI run 43278416127 passed validation. The owner explicitly approved final evidence publication and Pages on 12 November 2026. Final publication/deployment verification is in progress; runtime files remain identical to the tested runtime.
+Verified clean publication baseline: 8a68db13e272f1dab68a1490d7584e579f5babe2; CI 43288056075 passed validation and Pages deployment. Later final documentation revisions retain this runtime; live build.json records the exact deployed commit and clean-source identity. See docs/publication-evidence.json.
 
 LOCAL DELIVERABLES
 build/android/tideline-tow-test.apk - ordinary installable debug APK
@@ -30,9 +32,9 @@ OBSERVED VALIDATION
 145/145 model checks (all 30 authored contracts clean), 49/49 UI/lifecycle, 57/57 service fixtures, 78 audio-file assertions, content/license and native ABI checks pass. Final Android emulator checks include actual contracts, banner/interstitial presentation and dismissal, no-earned reward closure, earned callback, corrected paused HUD, cold recovery and explicit-resume victory. The ordinary APK also accepts real ADB touch controls and Android Back; this is not physical-device or human difficulty acceptance.
 
 REMAINING LIMITS
-The earlier personal-browser attempt was cancelled before game navigation and was not repeated. A separately authorized isolated cloud browser will check the live game after deployment. Local HTTP/static references pass. GitHub Pages is now enabled with Actions and HTTPS; live responses and the exact deployed revision still require verification.
+The authorized isolated cloud browser rendered the live review and passed its 7-inch profile switch. The Godot shell loaded but reported missing WebGL2, so Web gameplay and reload persistence are NOT RUN. The earlier personal-Edge cancellation was respected; no repeat request or setting changes occurred. All 56 public HTTP/static resources passed, with clean deployed metadata and exact exported translation-byte checks.
 
-The earlier publication restrictions were resolved by explicit owner approval. No Google Play publication is authorized or performed. Final repository, Pages and CI identities will be recorded after verification.
+Publication restrictions were resolved by explicit owner approval. The repository and HTTPS Pages site are public. Exact current source identity: https://ethannyakabuski.github.io/tideline-tow/build.json. CI: https://github.com/EthannYakabuski/tideline-tow/actions/runs/43288056075. No Google Play publication or purchase occurred.
 
 Use only sample AdMob IDs until the owner supplies production configuration. Play Games is integrated but deliberately disabled with blank app, 20 achievement and 3 leaderboard IDs. Owner work: backend IDs/testers/signing, consent-region and production-service testing, policy/support/store forms, physical touch/audio/accessibility/performance and human playtesting. No Google Play publication or purchase occurred. See docs/PLATFORM_SETUP.md.
 

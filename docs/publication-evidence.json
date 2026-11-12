@@ -1,0 +1,92 @@
+{
+  "checked_utc": "2026-11-12T19:16:13.730212+00:00",
+  "status": "PASS",
+  "scope": "HTTPS delivery and source/artifact identity only; no browser gameplay assertion",
+  "metadata": {
+    "game": "Tideline Tow",
+    "source_commit": "8a68db13e272f1dab68a1490d7584e579f5babe2",
+    "uncommitted_changes": false,
+    "runtime_tree_sha256": "68f5230a3d744244ae1e6dd35f644b5964d08af041a1c3113eab02148fde1511",
+    "source_identity": "8a68db13e272f1dab68a1490d7584e579f5babe2",
+    "engine": "4.5.1.stable",
+    "web_threads": false,
+    "working_tree_changes": [],
+    "runtime_git_blobs_sha256": "4f97ff49af249f70c693119aeba99f0ec7eb1e8afadf49e5fdde0cc6ba5672ba"
+  },
+  "resources": {
+    "build.json": {
+      "status": 200,
+      "bytes": 461,
+      "content_type": "application/json",
+      "sha256": "49235bf1bb41eeec2ba5dadd15d3c80ced49bc9a07f0f48992f5f08b5c9d1237"
+    },
+    "": {
+      "status": 200,
+      "bytes": 9377,
+      "content_type": "text/html",
+      "sha256": "a9fcebf99e9c4a3674ea349983cf44af9ed7c72047ab1865b6e6841e55998492"
+    },
+    "review/": {
+      "status": 200,
+      "bytes": 14257,
+      "content_type": "text/html",
+      "sha256": "8dd7e63d23489b9aedc2b9abb7b5fb6eaef338956930f4050767f9fad051a041"
+    },
+    "play/": {
+      "status": 200,
+      "bytes": 5487,
+      "content_type": "text/html",
+      "sha256": "c5411d0e3470d74a1629f26a8fc60c88ae35776e8a57b32f7537973c2cd378cb"
+    },
+    "play/index.wasm": {
+      "status": 200,
+      "bytes": 38034280,
+      "content_type": "application/wasm",
+      "sha256": "6498359ba889796a0d95a2f71113ac184badc0f2d84cf28f4103c7e399d2d547"
+    },
+    "play/index.pck": {
+      "status": 200,
+      "bytes": 10367040,
+      "content_type": "application/octet-stream",
+      "sha256": "382d25ec73932534182e48ccbeaf739ea909efed99637e80c551d00945e7baa9"
+    }
+  },
+  "exported_translation_checks": {
+    "addons/admob/internal/translations/admob_sample.en.translation": {
+      "matches_committed_bytes": true,
+      "sha256": "bd4aae346a21170296979824e3f1ea6bf24e343ae7cec6a9f5899c77d660ab64"
+    },
+    "addons/admob/internal/translations/admob_sample.es.translation": {
+      "matches_committed_bytes": true,
+      "sha256": "c3d7c230bf8cfa241e8a946ed045d0a26db3d8f2d3daf677f54dbd5be6222357"
+    },
+    "addons/admob/internal/translations/admob_sample.ja.translation": {
+      "matches_committed_bytes": true,
+      "sha256": "2bf6469210afbd50079c49a546c082943def7d9a6227b33e37422153291fea80"
+    },
+    "addons/admob/internal/translations/admob_sample.pt_BR.translation": {
+      "matches_committed_bytes": true,
+      "sha256": "b456ee574322d2b2c404dc6e5048ea47353cfbf986b410eb7f2fa2ec0ffac0ba"
+    },
+    "addons/admob/internal/translations/admob_sample.zh_CN.translation": {
+      "matches_committed_bytes": true,
+      "sha256": "b5d2b1f6e05a54d7bc8761004cce789ca5eb3ce307347df3da630db71da6a8a3"
+    }
+  },
+  "ci": {
+    "verified_commit": "8a68db13e272f1dab68a1490d7584e579f5babe2",
+    "run_id": 43288056075,
+    "url": "https://github.com/EthannYakabuski/tideline-tow/actions/runs/43288056075",
+    "validate": "success",
+    "deploy": "success"
+  },
+  "browser": {
+    "tested_deployment": "bfc4b12c7399ee0ed11e2334a305a8533786ec91",
+    "surface": "authorized isolated cloud browser",
+    "review_rendering": "PASS",
+    "review_tablet7_switch": "PASS",
+    "godot_shell": "PASS",
+    "game_startup": "BLOCKED: browser missing WebGL2",
+    "gameplay_and_reload_persistence": "NOT RUN"
+  }
+}

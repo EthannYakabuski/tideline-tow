@@ -38,7 +38,7 @@ Pass `-Godot` to each script if the editor is not on the default Desktop path. B
 
 For other systems, import with `godot --headless --editor --path . --import`, then run `--script tests/test_model.gd`, `--script tests/test_ui.gd`, and the normal scene `res://platform/tests/test_services.tscn`. Use isolated writable data/log locations. Run `python3 tools/validate_audio.py`, `python3 tools/validate_content.py` and `python3 tools/verify_android_bundle.py <bundle.aab>`. The hosted workflow validates source/content and exports the single-threaded Web build; Android artifacts are validated locally.
 
-Pages deployment is opt-in through the repository variable `PAGES_DEPLOY_ENABLED=true` after GitHub Pages is enabled with the Actions build type and publication is authorized. Until then the validate job still runs and uploads the complete static-site artifact; deployment is skipped. A successful validation job alone is not a live-site claim.
+GitHub Pages is enabled with Actions deployment and `PAGES_DEPLOY_ENABLED=true`, under explicit owner approval. [Play](https://ethannyakabuski.github.io/tideline-tow/play/) and [review](https://ethannyakabuski.github.io/tideline-tow/review/) are public. The workflow retains reviewed plugin translation resources after import and rejects unexpected checkout changes before publication. [Live build metadata](https://ethannyakabuski.github.io/tideline-tow/build.json) identifies the deployed commit; [acceptance](docs/ACCEPTANCE.md) distinguishes delivery, browser capability and gameplay checks.
 
 ## Services and publishing
 

@@ -2,7 +2,7 @@
 
 The coordinating thread tested the live GitHub Pages deployment in a supported isolated cloud browser, separately from the owner's personal Edge session. The review rendered and its 7-inch screenshot-profile switch worked. The game reached the Godot loader, which reported missing WebGL2 support in that browser. Gameplay and reload persistence therefore remain not run; this is a browser capability limit, not a demonstrated game-code failure.
 
-Tested public deployment: `bfc4b12c7399ee0ed11e2334a305a8533786ec91`. Canonical runtime identity: `4f97ff49af249f70c693119aeba99f0ec7eb1e8afadf49e5fdde0cc6ba5672ba`. The initial deployment's metadata flagged a CI working-tree change; publication provenance is tracked separately from browser observations. Later documentation and build-tool changes preserve the tested runtime.
+Tested public deployment: `bfc4b12c7399ee0ed11e2334a305a8533786ec91`. Canonical runtime identity: `4f97ff49af249f70c693119aeba99f0ec7eb1e8afadf49e5fdde0cc6ba5672ba`. The initial deployment's metadata flagged regenerated plugin translations. The narrow import correction subsequently passed clean CI and live PCK byte verification at `8a68db13e272f1dab68a1490d7584e579f5babe2`; see [publication evidence](publication-evidence.json). Later documentation and build-tool changes preserve the tested runtime.
 
 | Check | Status | Observed evidence and limits |
 | --- | --- | --- |
