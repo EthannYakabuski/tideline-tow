@@ -46,6 +46,14 @@ jobs:
         run: |
           export PATH="$PWD/.ci/godot:$PATH"
           Godot_v4.5.1-stable_linux.x86_64 --headless --editor --path . --import
+          # CSV import regenerates these tracked plugin localization binaries.
+          # Export the reviewed resources; assembly rejects any other dirty files.
+          git restore --source=HEAD -- \
+            addons/admob/internal/translations/admob_sample.en.translation \
+            addons/admob/internal/translations/admob_sample.es.translation \
+            addons/admob/internal/translations/admob_sample.ja.translation \
+            addons/admob/internal/translations/admob_sample.pt_BR.translation \
+            addons/admob/internal/translations/admob_sample.zh_CN.translation
           mkdir -p build/test-rules build/test-ui build/test-expansion build/site/play
           XDG_DATA_HOME="$PWD/build/test-rules" TIDELINE_TEST_ROOT="$PWD/build/test-rules" timeout 300 Godot_v4.5.1-stable_linux.x86_64 --headless --path . --script tests/test_model.gd
           XDG_DATA_HOME="$PWD/build/test-ui" TIDELINE_TEST_ROOT="$PWD/build/test-ui" timeout 120 Godot_v4.5.1-stable_linux.x86_64 --headless --path . --script tests/test_ui.gd
