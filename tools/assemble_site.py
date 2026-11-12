@@ -1,6 +1,6 @@
 """Assemble a static, iframe-ready Web preview around an existing Godot export."""
 from pathlib import Path
-import hashlib, json, shutil, subprocess, sys
+import hashlib, json, os, shutil, subprocess, sys
 from source_identity import runtime_git_identity
 
 root=Path(__file__).resolve().parents[1]
@@ -23,8 +23,14 @@ for folder in ['game','platform','assets','addons','scenes']:
 for name in ['project.godot','export_presets.cfg']:
     runtime[name]=hashlib.sha256((root/name).read_bytes()).hexdigest()
 runtime_hash=hashlib.sha256(json.dumps(runtime,sort_keys=True).encode()).hexdigest()
-dirty=bool(subprocess.check_output(['git','status','--porcelain'],cwd=root,text=True).strip())
+changes=subprocess.check_output(['git','status','--porcelain'],cwd=root,text=True).splitlines()
+dirty=bool(changes)
+if dirty:
+    print('Working-tree changes during assembly:',json.dumps(changes))
+if os.environ.get('GITHUB_ACTIONS') == 'true' and dirty:
+    raise RuntimeError('CI must export the exact committed source; inspect the working-tree changes above')
 metadata={'game':'Tideline Tow','source_commit':commit,'uncommitted_changes':dirty,'runtime_tree_sha256':runtime_hash,'source_identity':('local-uncommitted/'+runtime_hash if dirty else commit),'engine':'4.5.1.stable','web_threads':False}
+metadata['working_tree_changes']=changes
 metadata['runtime_git_blobs_sha256']=runtime_git_identity(root)
 (target/'build.json').write_text(json.dumps(metadata,indent=2),encoding='utf-8')
 print('Assembled',target,'from',metadata['source_identity'])
