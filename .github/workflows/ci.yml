@@ -61,7 +61,8 @@ jobs:
           retention-days: 1
   deploy:
     needs: validate
-    if: github.ref == 'refs/heads/main'
+    # Validation/export remain useful before public Pages hosting is enabled.
+    if: github.ref == 'refs/heads/main' && vars.PAGES_DEPLOY_ENABLED == 'true'
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     permissions:
