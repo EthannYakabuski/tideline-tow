@@ -1,0 +1,312 @@
+{
+  "method": "built-in image_gen; deterministic atlas split and Lanczos resize via Godot4.5.1",
+  "artwork_is_gameplay_capture": false,
+  "files": [
+    {
+      "path": "marketing/app-icon.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "7fcd5b9a3fda81ee64e22fce81e17a0e6a79838dea4d33c7427a564c0214064c"
+    },
+    {
+      "path": "marketing/feature-graphic.png",
+      "width": 1024,
+      "height": 500,
+      "sha256": "1b32952611ff4dad5f44128848209d6b35c563e8ef855ac5551b5710655d3b79"
+    },
+    {
+      "path": "marketing/achievements/first_tow.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "d0f0967f847492a521675f7f3e4c7c6aee03732148104baf121cf7d5e6179f3f"
+    },
+    {
+      "path": "assets/brand/achievements/first_tow.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "de2aa09c590000ed78ff6aea75697834b2c879693744b92b73c59c6bbf1aee9f"
+    },
+    {
+      "path": "marketing/achievements/first_delivery.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "b74d9572a820b5d80dde3de2d24f030742a482616237382974023c70831fd955"
+    },
+    {
+      "path": "assets/brand/achievements/first_delivery.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "82c93062258dac8c10e988f12b5b88d966d8e46a0082bb1a65ca58fd29cb11b3"
+    },
+    {
+      "path": "marketing/achievements/convoy_three.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "22aca4f2280dcd271ff3e7d329a04b47d4d0254e22821e22ec2b06420c9c4931"
+    },
+    {
+      "path": "assets/brand/achievements/convoy_three.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "eb58e6ce405cb983ee27f09c6d176c1854e6b1f8846e2e87dd874b59fcddf8b9"
+    },
+    {
+      "path": "marketing/achievements/convoy_six.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "5e4dbac73e4b6822e9a36d49613442e6fd9c8a5e307b359f6b82907c1271bb14"
+    },
+    {
+      "path": "assets/brand/achievements/convoy_six.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "93470cb29050f308e3d6660b0edd12a80895c10fa26168c65298040accddb024"
+    },
+    {
+      "path": "marketing/achievements/rescue_25.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "50c20f4106d13aba1fd5ab4e62ea23258970b93b790cbde5c6bd7970a511bbd5"
+    },
+    {
+      "path": "assets/brand/achievements/rescue_25.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "b1d121fccfb10c40c08f90d52ecc51cee50c27c717e675a519fc27925ac85cae"
+    },
+    {
+      "path": "marketing/achievements/rescue_100.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "1cc4cf3dced810f7c240f0025f3697df4fe2055af2e10efe86bb5b0908240135"
+    },
+    {
+      "path": "assets/brand/achievements/rescue_100.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "ea98fc486dd3f87f8ba3b10561fdd112f860595c1d6d139767db2efd663e4218"
+    },
+    {
+      "path": "marketing/achievements/rescue_500.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "47d3c1aa3e7f5ff322e621e26f9034e6c1c9c31e0d9fe1800e24045c9323ca87"
+    },
+    {
+      "path": "assets/brand/achievements/rescue_500.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "918567a3d3176806e74b24f824c4c562128abc06b16eb171835a79ad2165fe0f"
+    },
+    {
+      "path": "marketing/achievements/cove_complete.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "3eb4ae2e91d1caaec0ff57752839a35b24d78590ced541a1647bea6ac10f6772"
+    },
+    {
+      "path": "assets/brand/achievements/cove_complete.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "e71297b8d9b6a17a1c8bf03d5c76185073f80441017d56af7e14c19144907f02"
+    },
+    {
+      "path": "marketing/achievements/dock_complete.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "abefd9d8fda8c733bb60edbf66b47ef6ac7196e3577993a54015c04319c4e01b"
+    },
+    {
+      "path": "assets/brand/achievements/dock_complete.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "4b610d0da7e3afec10cfede9900dd9374a7f98f9177aa7ba42b709657d5e1d6d"
+    },
+    {
+      "path": "marketing/achievements/strait_complete.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "e7b1357bd657ad5e11518e2d7d510c685b6e8821c739eda3a12685ce8b9d7b21"
+    },
+    {
+      "path": "assets/brand/achievements/strait_complete.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "3d0bd6a63ef1d618ec5b0ee52260c8af235caf6527686dc6886433a18e26e8bc"
+    },
+    {
+      "path": "marketing/achievements/campaign_complete.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "dffde4785f654baca2ded331f930411068598039c3b74f2ef1b3ad28a5d90745"
+    },
+    {
+      "path": "assets/brand/achievements/campaign_complete.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "cf3f87996e32042af90a53ab4651a8cec3ce03c1083041f5179f24b47145ca54"
+    },
+    {
+      "path": "marketing/achievements/stars_30.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "3a3d9dbc8c773f90392bc1992aef94e3ef1636e65d932af6717c0cbcb979dcf4"
+    },
+    {
+      "path": "assets/brand/achievements/stars_30.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "e5c13dd60ad791b19afb25bea89fc3d78b6202b6a88946788f59d255f13351b7"
+    },
+    {
+      "path": "marketing/achievements/stars_90.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "2a2ae1bf7006529658e4d4934f67cce543e70f8f36dc431b39564ff5525540cf"
+    },
+    {
+      "path": "assets/brand/achievements/stars_90.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "5b0d850373c911d47e3405d596d5f42af9cf6c44fb396700f2a8a5bec4119a94"
+    },
+    {
+      "path": "marketing/achievements/clean_contract.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "e4bf8aa5e414e89cf8f9e0af4216124f1aed859f1f4c33441d7b5096df036c77"
+    },
+    {
+      "path": "assets/brand/achievements/clean_contract.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "7b352ecbb1b3afaa9bdda8c246c4e2fd8a73a204fd1e904e2a781f8154e01c99"
+    },
+    {
+      "path": "marketing/achievements/swift_contract.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "594288f7e375b74421915f8a3bb5a112f0f17df1ff335b6f956f85bd67b56b06"
+    },
+    {
+      "path": "assets/brand/achievements/swift_contract.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "73d78d99f6c432e7e0daf7949e9d5a9edefc62855514da2873e91ae3385db732"
+    },
+    {
+      "path": "marketing/achievements/endless_1000.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "30c5c3b9621e40b6b6b1afb894a930ee3ba17807f2d419e8af1150cff791272f"
+    },
+    {
+      "path": "assets/brand/achievements/endless_1000.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "8dd0c52fd24910df1663bc7a37f0a734c93ce9985f35cdcb66a262ad1c6c26a5"
+    },
+    {
+      "path": "marketing/achievements/daily_watch.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "d2166add34f41677453d49d4157a57532db6466727ed55d818ba9bb2895082e2"
+    },
+    {
+      "path": "assets/brand/achievements/daily_watch.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "908923a6d662a91077ced5b45333f22cb75cedb814203a8476b0684d07d803cf"
+    },
+    {
+      "path": "marketing/achievements/week_welcome.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "d08ef53e9ca6027eb2358500b11fd6c9f72533113fa3afd57c21dabd035d478e"
+    },
+    {
+      "path": "assets/brand/achievements/week_welcome.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "4a45e42490bacf31f170145c7cdc37a9d41fcdd5f2363cece9c768280242b9a1"
+    },
+    {
+      "path": "marketing/achievements/level_5.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "e85809498af5024adf0716135c294ecc205a6c59c70e6aa7052064681747bc1d"
+    },
+    {
+      "path": "assets/brand/achievements/level_5.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "1b05b776662aa38b73382f8625486a9e7dd61249f02bbf6543f3e883b092cc33"
+    },
+    {
+      "path": "marketing/achievements/level_10.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "627aa550be921ca146f402d9852be46ef703bf9108863b10bc8e02c96c219654"
+    },
+    {
+      "path": "assets/brand/achievements/level_10.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "175214ddbcd41011667f4c46d52f5af2b212e0a5fe78770253edc7399c3388f4"
+    },
+    {
+      "path": "marketing/leaderboards/total_rescues.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "1671511de2ae6ec7954619defea71c113fc66b3e57976ef54f444d3aba9e844c"
+    },
+    {
+      "path": "assets/brand/leaderboards/total_rescues.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "beb06bc2296499db6d25f738ee5f6bf970190857ed7e80b2634e2905336e4ee2"
+    },
+    {
+      "path": "marketing/leaderboards/best_endless.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "0cc962d46cd4096b34aa5d72ed6a601d20998db236a7693bc198d413d9b46a96"
+    },
+    {
+      "path": "assets/brand/leaderboards/best_endless.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "2d11467fb821221a3ec89fcdb7656d5950cc5a2a270dcbb0ead663db9bae8191"
+    },
+    {
+      "path": "marketing/leaderboards/skipper_xp.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "651e2c9686e90e2386e14ac425899dcce699e7edaaa786918462b31f967751de"
+    },
+    {
+      "path": "assets/brand/leaderboards/skipper_xp.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "d41d69c49a74550d96d59a7334a540e49c80cf982b09c1541766f4791438b65f"
+    },
+    {
+      "path": "marketing/splash.png",
+      "width": 768,
+      "height": 1093,
+      "sha256": "e54dd1eaaca9d5e61047d1d14413e6293e4a260e80b9d9277e48b5d3dc4c01a6"
+    },
+    {
+      "path": "assets/brand/splash.png",
+      "width": 768,
+      "height": 1093,
+      "sha256": "e54dd1eaaca9d5e61047d1d14413e6293e4a260e80b9d9277e48b5d3dc4c01a6"
+    },
+    {
+      "path": "assets/brand/keyart.png",
+      "width": 1536,
+      "height": 750,
+      "sha256": "fe59caf112c07dbb738f34b05ff9d4b8edf2b97b7a2d5f2b6c1623c928282e3c"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Tideline Tow original generated artwork
+Date: 2026-11-12
+
+Generated for this project using the built-in OpenAI image_gen tool.
+Included under the project's Apache License 2.0 for original project work.
+No third-party logos, licensed characters or copied benchmark artwork were used.
+
+Assets:
+- assets/brand/app-icon.png, keyart.png, splash.png
+- assets/brand/achievements/*.png and leaderboards/*.png
+- marketing/app-icon.png, feature-graphic.png, splash.png, tow-emblem.png
+- marketing/achievements/*.png and leaderboards/*.png
+- marketing/source/*.png
+
+Generation prompts are preserved in marketing/art-prompts.json.
+The six icon atlases were split at their 2x2 grid boundaries, with two pixels
+removed at tile edges to omit divider lines, then resized with Lanczos sampling.
+No gameplay screenshots were fabricated or painted over.
+The portrait splash retains its generated aspect ratio.
+

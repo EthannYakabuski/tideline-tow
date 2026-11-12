@@ -1,0 +1,23 @@
+Little tug. Big rescue.
+
+A boat needs a hand. Then another. Soon your little tug is pulling a whole colorful convoy through the harbor.
+
+Tideline Tow is a portrait harbor-rescue arcade game built around one satisfying job: bring every boat home. Drag to steer, pick up stranded boats, and guide your growing tow chain back to the safe harbor. A longer convoy earns a bigger delivery, but needs more room to turn. Take the bold route, or bank your rescue before the next crossing?
+
+THREE COASTS TO CALL HOME
+Explore sunny Sunwake Cove, the working waterfront of Copperdock, and the amber lights of Lantern Strait. Thirty authored contracts introduce rocks, moving ferries and currents in compact rescue challenges. Learn a route, protect your hull, and return for a better star rating.
+
+ONE THUMB, A WHOLE LITTLE FLEET
+Steer with a simple drag control. Boats join your rope when you get close; the harbor banks your convoy when you return. Your three hull hearts make every tight turn matter.
+
+A REASON TO CAST OFF AGAIN
+Try Endless Watch for a new personal best, or take on the day's seeded rescue. Daily goals and seven-day welcome gifts help your skipper grow. Earn XP, improve rope capacity and hull protection, and collect twenty illustrated achievements.
+
+YOUR PROGRESS STAYS WITH YOU
+Campaign progress, upgrades and personal records are saved locally. The core game works offline. Internet access is needed for optional advertising and online services when available.
+
+Advertising appears at natural breaks: a small harbor/results banner, an interstitial after every third completed round when available, and an optional rewarded continue after a failed rescue. A rewarded continue is granted only after the ad confirms completion. Browser play keeps local progress, with no simulated ad rewards.
+
+Set a course. Gather your fleet. Bring them home.
+
+This prototype uses test advertising. Online Google Play Games achievements and leaderboards await production configuration; local achievements and records are playable now.

@@ -1,0 +1,40 @@
+{
+  "name": "Tideline Tow",
+  "short_description": "Steer a tiny tug, grow your convoy, and bring every boat home.",
+  "long_description": "Little tug. Big rescue.\n\nA boat needs a hand. Then another. Soon your little tug is pulling a whole colorful convoy through the harbor.\n\nTideline Tow is a portrait harbor-rescue arcade game built around one satisfying job: bring every boat home. Drag to steer, pick up stranded boats, and guide your growing tow chain back to the safe harbor. A longer convoy earns a bigger delivery, but needs more room to turn. Take the bold route, or bank your rescue before the next crossing?\n\nTHREE COASTS TO CALL HOME\nExplore sunny Sunwake Cove, the working waterfront of Copperdock, and the amber lights of Lantern Strait. Thirty authored contracts introduce rocks, moving ferries and currents in compact rescue challenges. Learn a route, protect your hull, and return for a better star rating.\n\nONE THUMB, A WHOLE LITTLE FLEET\nSteer with a simple drag control. Boats join your rope when you get close; the harbor banks your convoy when you return. Your three hull hearts make every tight turn matter.\n\nA REASON TO CAST OFF AGAIN\nTry Endless Watch for a new personal best, or take on the day's seeded rescue. Daily goals and seven-day welcome gifts help your skipper grow. Earn XP, improve rope capacity and hull protection, and collect twenty illustrated achievements.\n\nYOUR PROGRESS STAYS WITH YOU\nCampaign progress, upgrades and personal records are saved locally. The core game works offline. Internet access is needed for optional advertising and online services when available.\n\nAdvertising appears at natural breaks: a small harbor/results banner, an interstitial after every third completed round when available, and an optional rewarded continue after a failed rescue. A rewarded continue is granted only after the ad confirms completion. Browser play keeps local progress, with no simulated ad rewards.\n\nSet a course. Gather your fleet. Bring them home.\n\nThis prototype uses test advertising. Online Google Play Games achievements and leaderboards await production configuration; local achievements and records are playable now.",
+  "category": "Game / Arcade",
+  "tags": [
+    "Casual",
+    "Single player",
+    "Offline",
+    "Stylized",
+    "Boating"
+  ],
+  "tags_note": "Suggested metadata; select the closest tags available in Play Console at submission.",
+  "orientation": "Portrait",
+  "primary_platform": "Android",
+  "additional_platform": "Web",
+  "package_name": "com.ethannyakabuski.tidelinetow",
+  "version": "1.0.0",
+  "release_status": "Playable prototype; not submitted to Google Play",
+  "contains_ads": true,
+  "in_app_purchases": false,
+  "age_rating": "Complete the Play Console content-rating questionnaire; no rating is preclaimed.",
+  "production_note": "Replace the final paragraph after production services and ads are configured and verified. Do not claim live online leaderboards before that.",
+  "three_selling_cards": [
+    {
+      "title": "Make a little fleet",
+      "copy": "Turn one rescue into a winding convoy. More boats mean a richer delivery and a wider turn."
+    },
+    {
+      "title": "Read the harbor",
+      "copy": "Find clean routes around rocks, currents and crossing ferries across thirty handcrafted contracts."
+    },
+    {
+      "title": "One more good watch",
+      "copy": "Chase stars, a daily route and your endless record while your skipper and tug improve."
+    }
+  ],
+  "lore": "The three harbors share one old promise: nobody gets left on the tide. Your little tug is the newest boat to carry it.",
+  "future_dlc": "After the core game is validated: Stormglass Islands, ten additional fog-and-weather contracts with a new tug livery. This is a proposal, not included content."
+}

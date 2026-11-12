@@ -1,0 +1,69 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "date": "2026-11-12",
+  "hero": "Use case: ads-marketing. Create polished original game key art for TIDELINE TOW, a cheerful tactile 3D low-poly harbor rescue arcade. WIDE landscape 2.048:1 composition designed for a 1024x500 feature graphic. A stout coral-orange and cream toy tugboat with navy hull, round black tire bumpers, tiny brass smokestack, prominent friendly wheelhouse, sweeping around the foreground in sparkling turquoise water. Behind it a clearly connected rope tow chain of three small colorful stranded sailboats curves in an elegant S shape toward a welcoming sheltered harbor. Rich storybook coastal diorama of cream cliffs, pine trees, sunny yellow lighthouse, tiny weathered docks, copper-roof fishing sheds, colorful buoys and distant cargo crane. Warm late-afternoon sun, soft shadows, jewel-like water, crisp beautifully finished 3D stylized illustration, rich atmospheric detail and strong silhouettes, high-end indie mobile artwork with charming physical toy materials. Text integrated beautifully into the upper-left sky in chunky elegant cream display lettering exactly: 'TIDELINE TOW'. Smaller line beneath exactly: 'Little tug. Big rescue.' Artwork stays readable small, hero tug dominant on right foreground, lettering left, no UI, no app-store badges, no phones, no watermark. This is promotional illustration, not a gameplay screenshot.",
+  "icon": "Use case: stylized-concept. Create a beautiful square app icon for an original cheerful harbor rescue arcade called Tideline Tow. No text anywhere. The bold single hero is a plump coral-orange and warm cream miniature tugboat with navy hull, brass funnel and black tire bumpers, warmly lit, seen close in dynamic three-quarter view from slightly above. Thick golden tow rope arcs around its base, a single small turquoise rescue boat follows behind. Beautiful teal ocean, soft white wake curls and one distant cream lighthouse silhouette. Sophisticated stylized low-poly 3D toy illustration with simple readable large forms and premium hand-painted finish, amber sunbeams, crisp silhouette. Full bleed square artwork, no outer frame, no rounded corner treatment, no UI or logos or watermark. Tug occupies 75 percent of square, centered with useful safe padding. Palette seafoam navy coral cream. Detailed enough to feel finished, strongly readable at 48 pixels.",
+  "splash": "Use case: ads-marketing. Original illustrated portrait launch splash for cheerful 3D harbor rescue arcade TIDELINE TOW. Tall 9:16 artwork. A lovely sheltered coastal harbor with turquoise sea, pale rocky islands with dark-green pines, cream lighthouse with warm yellow lamp, weathered dockside cottages, orange-red rooftops, tiny colorful buoys. In the lower-middle foreground a courageous stout coral-orange and cream toy tugboat with navy hull and thick black tire bumpers tows three little blue, yellow and red sailboats on a connected golden rope curving elegantly toward a sheltered timber pier. High-end stylized 3D illustration, beautiful warm soft sunlight, tactile painted wood, glints of gold in the water and gently curving white wakes. Attractive premium indie mobile aesthetic with clear silhouettes. Upper third has calm sky with perfectly readable bold cream display title text exactly 'TIDELINE TOW', and smaller text exactly 'Little tug. Big rescue.' Bottom quarter has comparatively calm dark teal water for optional loading overlay. No UI, no buttons, no phone, no store logos, no watermark. Promotional illustration, not a screenshot.",
+  "badges": [
+    {
+      "index": 0,
+      "keys": [
+        "first_tow",
+        "first_delivery",
+        "convoy_three",
+        "convoy_six"
+      ],
+      "prompt": "Use case: stylized-concept. A single polished nautical game achievement ICON ATLAS, square image, exactly TWO columns and TWO rows of four equal square tiles, perfectly aligned, no margins between tiles. Every tile has identical deep navy background (#102a38) and one centered circular cream-and-gold rope rim containing a large distinct colorful illustrated motif. Premium charming stylized low-poly 3D toy illustration with crisp strong silhouettes and tactile paint, warm cream light, restrained coral/seafoam/brass palette. Each icon occupies 80 percent of its tile, including circular rim, leaving consistent dark safe border. NO text, NO numbers, NO letters, NO labels, NO watermark. Motifs by position MUST be: top-left a golden towing hook joining a thick rope loop; top-right a little coral tugboat arriving at a safe timber harbor gate; bottom-left three colorful tiny sailboats linked in a curved convoy; bottom-right a long winding convoy of six colorful toy boats. Four completely distinct meaningful symbols. High detail high resolution ideally 2048 by 2048, perfectly square grid easy to crop into four separate square icons."
+    },
+    {
+      "index": 1,
+      "keys": [
+        "rescue_25",
+        "rescue_100",
+        "rescue_500",
+        "clean_contract"
+      ],
+      "prompt": "Use case: stylized-concept. A single polished nautical game achievement ICON ATLAS, square image, exactly TWO columns and TWO rows of four equal square tiles, perfectly aligned, no margins between tiles. Every tile has identical deep navy background (#102a38) and one centered circular cream-and-gold rope rim containing a large distinct colorful illustrated motif. Premium charming stylized low-poly 3D toy illustration with crisp strong silhouettes and tactile paint, warm cream light, restrained coral/seafoam/brass palette. Each icon occupies 80 percent of its tile, including circular rim, leaving consistent dark safe border. NO text, NO numbers, NO letters, NO labels, NO watermark. Motifs by position MUST be: top-left a pair of warm work gloves cradling a little rescued blue boat; top-right a brave coral tugboat with a red lifesaver and small golden laurel; bottom-left a cream lighthouse illuminating a sea of many little boats; bottom-right a serene turquoise wave sheltered inside a clear polished shield. Four completely distinct meaningful symbols. High detail high resolution ideally 2048 by 2048, perfectly square grid easy to crop into four separate square icons."
+    },
+    {
+      "index": 2,
+      "keys": [
+        "cove_complete",
+        "dock_complete",
+        "strait_complete",
+        "campaign_complete"
+      ],
+      "prompt": "Use case: stylized-concept. A single polished nautical game achievement ICON ATLAS, square image, exactly TWO columns and TWO rows of four equal square tiles, perfectly aligned, no margins between tiles. Every tile has identical deep navy background (#102a38) and one centered circular cream-and-gold twisted rope rim containing a large distinct colorful illustrated motif. Premium charming stylized low-poly 3D toy illustration with crisp strong silhouettes and tactile paint, warm cream light, restrained coral/seafoam/brass palette. Each icon occupies 80 percent of its tile, including circular rim, leaving consistent dark safe border. NO text, NO numbers, NO letters, NO labels, NO watermark. Motifs by position MUST be: top-left a sun rising over white cliffs and pines and a little cream lighthouse; top-right a copper harbor crane lifting a coral shipping container; bottom-left a glowing amber lantern reflected in dark indigo water; bottom-right an open nautical chart showing three harbors joined by a golden rope. Four completely distinct meaningful symbols. High detail high resolution ideally 2048 by 2048, perfectly square grid easy to crop into four separate square icons."
+    },
+    {
+      "index": 3,
+      "keys": [
+        "stars_30",
+        "stars_90",
+        "swift_contract",
+        "endless_1000"
+      ],
+      "prompt": "Use case: stylized-concept. A single polished nautical game achievement ICON ATLAS, square image, exactly TWO columns and TWO rows of four equal square tiles, perfectly aligned, no margins between tiles. Every tile has identical deep navy background (#102a38) and one centered circular cream-and-gold twisted rope rim containing a large distinct colorful illustrated motif. Premium charming stylized low-poly 3D toy illustration with crisp strong silhouettes and tactile paint, warm cream light, restrained coral/seafoam/brass palette. Each icon occupies 80 percent of its tile, including circular rim, leaving consistent dark safe border. NO text, NO numbers, NO letters, NO labels, NO watermark. Motifs by position MUST be: top-left a bright nautical compass with three golden stars; top-right a shining white lighthouse crowned by a dense constellation of gold stars; bottom-left a brass stopwatch with foamy curling wave sweeping behind it; bottom-right a navy tugboat sailing under a silver crescent moon and golden stars. Four completely distinct meaningful symbols. High detail high resolution ideally 2048 by 2048, perfectly square grid easy to crop into four separate square icons."
+    },
+    {
+      "index": 4,
+      "keys": [
+        "daily_watch",
+        "week_welcome",
+        "level_5",
+        "level_10"
+      ],
+      "prompt": "Use case: stylized-concept. A single polished nautical game achievement ICON ATLAS, square image, exactly TWO columns and TWO rows of four equal square tiles, perfectly aligned, no margins between tiles. Every tile has identical deep navy background (#102a38) and one centered circular cream-and-gold twisted rope rim containing a large distinct colorful illustrated motif. Premium charming stylized low-poly 3D toy illustration with crisp strong silhouettes and tactile paint, warm cream light, restrained coral/seafoam/brass palette. Each icon occupies 80 percent of its tile, including circular rim, leaving consistent dark safe border. NO text, NO numbers, NO letters, NO labels, NO watermark. Motifs by position MUST be: top-left a brass calendar page with a sunrise and blue wave; top-right a folded seven-panel nautical calendar with seven little rising suns; bottom-left a modest navy skipper cap with one brass anchor; bottom-right a grand captain's navy hat with brass laurels and two golden anchors. Four completely distinct meaningful symbols. High detail high resolution ideally 2048 by 2048, perfectly square grid easy to crop into four separate square icons."
+    },
+    {
+      "index": 5,
+      "keys": [
+        "total_rescues",
+        "best_endless",
+        "skipper_xp",
+        "tow_emblem"
+      ],
+      "prompt": "Use case: stylized-concept. A single polished nautical game achievement ICON ATLAS, square image, exactly TWO columns and TWO rows of four equal square tiles, perfectly aligned, no margins between tiles. Every tile has identical deep navy background (#102a38) and one centered circular cream-and-gold twisted rope rim containing a large distinct colorful illustrated motif. Premium charming stylized low-poly 3D toy illustration with crisp strong silhouettes and tactile paint, warm cream light, restrained coral/seafoam/brass palette. Each icon occupies 80 percent of its tile, including circular rim, leaving consistent dark safe border. NO text, NO numbers, NO letters, NO labels, NO watermark. Motifs by position MUST be: top-left a harbor dock filled with colorful rescued toy boats and a brass laurel; top-right a golden trophy filled with stylized blue waves under a crescent moon; bottom-left an open captain's logbook with a brass compass and quill; bottom-right a coral rescue tug encircled by a thick golden tow rope. Four completely distinct meaningful symbols. High detail high resolution ideally 2048 by 2048, perfectly square grid easy to crop into four separate square icons."
+    }
+  ]
+}

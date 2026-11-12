@@ -1,6 +1,7 @@
 """Assemble a static, iframe-ready Web preview around an existing Godot export."""
 from pathlib import Path
 import hashlib, json, shutil, subprocess, sys
+from source_identity import runtime_git_identity
 
 root=Path(__file__).resolve().parents[1]
 target=Path(sys.argv[1] if len(sys.argv)>1 else root/'build/site').resolve()
@@ -24,6 +25,6 @@ for name in ['project.godot','export_presets.cfg']:
 runtime_hash=hashlib.sha256(json.dumps(runtime,sort_keys=True).encode()).hexdigest()
 dirty=bool(subprocess.check_output(['git','status','--porcelain'],cwd=root,text=True).strip())
 metadata={'game':'Tideline Tow','source_commit':commit,'uncommitted_changes':dirty,'runtime_tree_sha256':runtime_hash,'source_identity':('local-uncommitted/'+runtime_hash if dirty else commit),'engine':'4.5.1.stable','web_threads':False}
+metadata['runtime_git_blobs_sha256']=runtime_git_identity(root)
 (target/'build.json').write_text(json.dumps(metadata,indent=2),encoding='utf-8')
 print('Assembled',target,'from',metadata['source_identity'])
-

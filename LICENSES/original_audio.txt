@@ -1,0 +1,29 @@
+TIDELINE TOW — ORIGINAL MUSIC
+Copyright 2026 Ethann Yakabuski
+
+The original compositions, arrangements, synthesis code and resulting music recordings
+in assets/audio/music are licensed under the Apache License, Version 2.0, supplied
+at the project root in LICENSE.
+
+The four tracks were composed for this project and synthesized from mathematical
+oscillators and deterministic noise. No third-party musical recordings, sampled
+instruments, or recognizable existing melodies were used by the generator.
+
+The Harbor Is Home — menu.wav
+Sunwake Skipping Rope — sunwake.wav
+Brass and Buoys — copperdock.wav
+Last Lantern Home — lantern.wav
+
+Reproduction: python tools/generate_audio.py (Python 3; standard library only).
+Musical and technical metadata: assets/audio/music/manifest.json.
+
+KENNEY SOUND EFFECTS
+The seven .ogg effects in assets/audio are unmodified files from Kenney's Interface
+Sounds and Impact Sounds packs. These are CC0-1.0, not Apache-licensed original music.
+Their exact original filenames and byte hashes are recorded in effects_manifest.json.
+The original pack notices are preserved in kenney_interface-sounds.txt and
+kenney_impact-sounds.txt alongside this file. Creator: Kenney (https://kenney.nl).
+
+Testing note: PCM metadata, peak/RMS levels, full-file forward loop cues and hashes
+were checked programmatically. This does not establish physical-device listening
+quality or the final in-game music/effects balance; those require human listening.

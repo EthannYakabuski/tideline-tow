@@ -1,0 +1,202 @@
+[
+  {
+    "key": "first_tow",
+    "name": "First Link",
+    "description": "Hook your first stranded boat.",
+    "icon": "achievements/first_tow.png",
+    "runtime_icon": "res://assets/brand/achievements/first_tow.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "first_delivery",
+    "name": "Safe Harbor",
+    "description": "Deliver your first rescue convoy.",
+    "icon": "achievements/first_delivery.png",
+    "runtime_icon": "res://assets/brand/achievements/first_delivery.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "convoy_three",
+    "name": "Little Fleet",
+    "description": "Deliver three boats together.",
+    "icon": "achievements/convoy_three.png",
+    "runtime_icon": "res://assets/brand/achievements/convoy_three.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "convoy_six",
+    "name": "Long Blue Line",
+    "description": "Deliver six boats together.",
+    "icon": "achievements/convoy_six.png",
+    "runtime_icon": "res://assets/brand/achievements/convoy_six.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "rescue_25",
+    "name": "Helping Hands",
+    "description": "Bring 25 boats home.",
+    "icon": "achievements/rescue_25.png",
+    "runtime_icon": "res://assets/brand/achievements/rescue_25.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "rescue_100",
+    "name": "Harbor Hero",
+    "description": "Bring 100 boats home.",
+    "icon": "achievements/rescue_100.png",
+    "runtime_icon": "res://assets/brand/achievements/rescue_100.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "rescue_500",
+    "name": "Coast Guardian",
+    "description": "Bring 500 boats home.",
+    "icon": "achievements/rescue_500.png",
+    "runtime_icon": "res://assets/brand/achievements/rescue_500.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "cove_complete",
+    "name": "Sunwake Skipper",
+    "description": "Finish all 10 Sunwake contracts.",
+    "icon": "achievements/cove_complete.png",
+    "runtime_icon": "res://assets/brand/achievements/cove_complete.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "dock_complete",
+    "name": "Copper Captain",
+    "description": "Finish all 10 Copperdock contracts.",
+    "icon": "achievements/dock_complete.png",
+    "runtime_icon": "res://assets/brand/achievements/dock_complete.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "strait_complete",
+    "name": "Lantern Keeper",
+    "description": "Finish all 10 Lantern contracts.",
+    "icon": "achievements/strait_complete.png",
+    "runtime_icon": "res://assets/brand/achievements/strait_complete.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "campaign_complete",
+    "name": "Every Boat Home",
+    "description": "Finish all 30 contracts.",
+    "icon": "achievements/campaign_complete.png",
+    "runtime_icon": "res://assets/brand/achievements/campaign_complete.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "stars_30",
+    "name": "Bright Bearings",
+    "description": "Earn 30 campaign stars.",
+    "icon": "achievements/stars_30.png",
+    "runtime_icon": "res://assets/brand/achievements/stars_30.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "stars_90",
+    "name": "Perfect Coast",
+    "description": "Earn all 90 campaign stars.",
+    "icon": "achievements/stars_90.png",
+    "runtime_icon": "res://assets/brand/achievements/stars_90.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "clean_contract",
+    "name": "Unruffled Waters",
+    "description": "Complete a contract without damage.",
+    "icon": "achievements/clean_contract.png",
+    "runtime_icon": "res://assets/brand/achievements/clean_contract.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "swift_contract",
+    "name": "Ahead of the Tide",
+    "description": "Finish a contract with half its time left.",
+    "icon": "achievements/swift_contract.png",
+    "runtime_icon": "res://assets/brand/achievements/swift_contract.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "endless_1000",
+    "name": "Night Watch",
+    "description": "Score 1,000 in Endless Watch.",
+    "icon": "achievements/endless_1000.png",
+    "runtime_icon": "res://assets/brand/achievements/endless_1000.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "daily_watch",
+    "name": "Today's Tide",
+    "description": "Complete the daily rescue.",
+    "icon": "achievements/daily_watch.png",
+    "runtime_icon": "res://assets/brand/achievements/daily_watch.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "week_welcome",
+    "name": "Seven Sunrises",
+    "description": "Claim the seventh consecutive login gift.",
+    "icon": "achievements/week_welcome.png",
+    "runtime_icon": "res://assets/brand/achievements/week_welcome.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "level_5",
+    "name": "Seasoned Skipper",
+    "description": "Reach skipper level 5.",
+    "icon": "achievements/level_5.png",
+    "runtime_icon": "res://assets/brand/achievements/level_5.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  },
+  {
+    "key": "level_10",
+    "name": "Master Mariner",
+    "description": "Reach skipper level 10.",
+    "icon": "achievements/level_10.png",
+    "runtime_icon": "res://assets/brand/achievements/level_10.png",
+    "google_play_id": "",
+    "type": "standard",
+    "initial_state": "revealed"
+  }
+]

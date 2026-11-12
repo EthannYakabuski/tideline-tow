@@ -1,0 +1,58 @@
+[
+  {
+    "file": "assets/audio/hook.ogg",
+    "source_pack": "kenney_impact-sounds",
+    "source_file": "impactMetal_light_002.ogg",
+    "license": "CC0-1.0",
+    "source_sha256": "25a96f90a9a1f88a531e824e126f0519504625e5635e65a72e4f31611428db29",
+    "sha256": "25a96f90a9a1f88a531e824e126f0519504625e5635e65a72e4f31611428db29"
+  },
+  {
+    "file": "assets/audio/delivery.ogg",
+    "source_pack": "kenney_interface-sounds",
+    "source_file": "confirmation_001.ogg",
+    "license": "CC0-1.0",
+    "source_sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a",
+    "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a"
+  },
+  {
+    "file": "assets/audio/bump.ogg",
+    "source_pack": "kenney_impact-sounds",
+    "source_file": "impactWood_medium_000.ogg",
+    "license": "CC0-1.0",
+    "source_sha256": "1723a9fd25103ed41af06054814e84e65f4a772bac86ab2dc927da93d9592ff5",
+    "sha256": "1723a9fd25103ed41af06054814e84e65f4a772bac86ab2dc927da93d9592ff5"
+  },
+  {
+    "file": "assets/audio/click.ogg",
+    "source_pack": "kenney_interface-sounds",
+    "source_file": "click_001.ogg",
+    "license": "CC0-1.0",
+    "source_sha256": "ccfb7fa0cccdd9faec0eb16033c732b1e308d139d80f799161495d58f7adcdb9",
+    "sha256": "ccfb7fa0cccdd9faec0eb16033c732b1e308d139d80f799161495d58f7adcdb9"
+  },
+  {
+    "file": "assets/audio/win.ogg",
+    "source_pack": "kenney_interface-sounds",
+    "source_file": "confirmation_004.ogg",
+    "license": "CC0-1.0",
+    "source_sha256": "568967a3d9f8a8f6af54ea01729c4882284308f2a27d78c07ffd7ee0d6951661",
+    "sha256": "568967a3d9f8a8f6af54ea01729c4882284308f2a27d78c07ffd7ee0d6951661"
+  },
+  {
+    "file": "assets/audio/fail.ogg",
+    "source_pack": "kenney_interface-sounds",
+    "source_file": "error_003.ogg",
+    "license": "CC0-1.0",
+    "source_sha256": "885b28175c7b511118bcffab95675b48bbac9005cf6514656ebdad979276b3ab",
+    "sha256": "885b28175c7b511118bcffab95675b48bbac9005cf6514656ebdad979276b3ab"
+  },
+  {
+    "file": "assets/audio/upgrade.ogg",
+    "source_pack": "kenney_interface-sounds",
+    "source_file": "maximize_006.ogg",
+    "license": "CC0-1.0",
+    "source_sha256": "f050b3bb77cb0b901bc8df43d2cc1872c353aebae10b4030cf8ae681726ad343",
+    "sha256": "f050b3bb77cb0b901bc8df43d2cc1872c353aebae10b4030cf8ae681726ad343"
+  }
+]

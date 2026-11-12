@@ -1,0 +1,32 @@
+[
+  {
+    "key": "total_rescues",
+    "name": "Boats Brought Home",
+    "description": "Lifetime rescued boats",
+    "icon": "leaderboards/total_rescues.png",
+    "runtime_icon": "res://assets/brand/leaderboards/total_rescues.png",
+    "google_play_id": "",
+    "score_order": "LARGER_IS_BETTER",
+    "format": "NUMERIC"
+  },
+  {
+    "key": "best_endless",
+    "name": "Endless Watch",
+    "description": "Best endless score",
+    "icon": "leaderboards/best_endless.png",
+    "runtime_icon": "res://assets/brand/leaderboards/best_endless.png",
+    "google_play_id": "",
+    "score_order": "LARGER_IS_BETTER",
+    "format": "NUMERIC"
+  },
+  {
+    "key": "skipper_xp",
+    "name": "Skipper Experience",
+    "description": "Lifetime skipper XP",
+    "icon": "leaderboards/skipper_xp.png",
+    "runtime_icon": "res://assets/brand/leaderboards/skipper_xp.png",
+    "google_play_id": "",
+    "score_order": "LARGER_IS_BETTER",
+    "format": "NUMERIC"
+  }
+]
