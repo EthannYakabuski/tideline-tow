@@ -1,0 +1,261 @@
+{
+	"acceptance_only": true,
+	"events": [],
+	"fullscreen": false,
+	"pause": "paused",
+	"phase": "cold",
+	"profile": {
+		"active": {
+			"boats": [
+				{
+					"id": 0.0,
+					"pos": [
+						-5.0,
+						-5.0
+					],
+					"status": "afloat",
+					"type": 0.0
+				},
+				{
+					"id": 1.0,
+					"pos": [
+						0.0,
+						-9.0
+					],
+					"status": "afloat",
+					"type": 1.0
+				},
+				{
+					"id": 2.0,
+					"pos": [
+						5.0,
+						-5.0
+					],
+					"status": "afloat",
+					"type": 2.0
+				}
+			],
+			"capacity": 3.0,
+			"continued": true,
+			"currents": [],
+			"damage": 0.0,
+			"damage_cooldown": 3.0,
+			"delivered": 0.0,
+			"deliveries": 0.0,
+			"district": 0.0,
+			"elapsed": 45.0131562380947,
+			"endless_wave": 0.0,
+			"events": [],
+			"failure": "",
+			"ferries": [],
+			"heading": [
+				0.0,
+				-1.0
+			],
+			"hull": 2.0,
+			"level": 0.0,
+			"limit": 45.0,
+			"max_convoy": 0.0,
+			"max_hull": 3.0,
+			"mode": "campaign",
+			"name": "First Tow",
+			"par": 15.0,
+			"pickups": 0.0,
+			"position": [
+				0.0,
+				7.0
+			],
+			"remaining": 45.0,
+			"rocks": [],
+			"run_id": "1794507672.10662-2925781-1794507672",
+			"score": 0.0,
+			"seed": 1794507672.0,
+			"speed": 5.0,
+			"stars": 0.0,
+			"status": "running",
+			"target": 3.0,
+			"tow": [],
+			"tow_positions": [],
+			"trail": [
+				[
+					0.0,
+					7.0
+				],
+				[
+					0.0,
+					8.0
+				],
+				[
+					-7.0,
+					8.0
+				],
+				[
+					-7.0,
+					1.0
+				]
+			],
+			"version": 1.0
+		},
+		"best_endless": 0.0,
+		"coins": 0.0,
+		"daily": {
+			"claimed": [],
+			"deliveries": 0.0,
+			"rescues": 0.0,
+			"score": 0.0
+		},
+		"day": "2026-11-12",
+		"login": {
+			"claimed_days": [],
+			"last_day": "",
+			"streak": 0.0
+		},
+		"settings": {
+			"effects": true,
+			"music": true,
+			"reduced_motion": false
+		},
+		"settled": [],
+		"stars": [
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"stats": {
+			"clean": 0.0,
+			"convoy": 0.0,
+			"daily_wins": 0.0,
+			"pickups": 0.0,
+			"rescues": 0.0,
+			"rounds": 0.0
+		},
+		"unlocked": [],
+		"upgrades": {
+			"engine": 0.0,
+			"hull": 0.0,
+			"rope": 0.0
+		},
+		"version": 1.0,
+		"xp": 0.0
+	},
+	"scenario": "cold",
+	"screen": "play",
+	"state": {
+		"boats": [
+			{
+				"id": 0.0,
+				"pos": [
+					-5.0,
+					-5.0
+				],
+				"status": "afloat",
+				"type": 0.0
+			},
+			{
+				"id": 1.0,
+				"pos": [
+					0.0,
+					-9.0
+				],
+				"status": "afloat",
+				"type": 1.0
+			},
+			{
+				"id": 2.0,
+				"pos": [
+					5.0,
+					-5.0
+				],
+				"status": "afloat",
+				"type": 2.0
+			}
+		],
+		"capacity": 3.0,
+		"continued": true,
+		"currents": [],
+		"damage": 0.0,
+		"damage_cooldown": 3.0,
+		"delivered": 0.0,
+		"deliveries": 0.0,
+		"district": 0.0,
+		"elapsed": 45.0131562380947,
+		"endless_wave": 0.0,
+		"events": [],
+		"failure": "",
+		"ferries": [],
+		"heading": [
+			0.0,
+			-1.0
+		],
+		"hull": 2.0,
+		"level": 0.0,
+		"limit": 45.0,
+		"max_convoy": 0.0,
+		"max_hull": 3.0,
+		"mode": "campaign",
+		"name": "First Tow",
+		"par": 15.0,
+		"pickups": 0.0,
+		"position": [
+			0.0,
+			7.0
+		],
+		"remaining": 45.0,
+		"rocks": [],
+		"run_id": "1794507672.10662-2925781-1794507672",
+		"score": 0.0,
+		"seed": 1794507672.0,
+		"speed": 5.0,
+		"stars": 0.0,
+		"status": "running",
+		"target": 3.0,
+		"tow": [],
+		"tow_positions": [],
+		"trail": [
+			[
+				0.0,
+				7.0
+			],
+			[
+				0.0,
+				8.0
+			],
+			[
+				-7.0,
+				8.0
+			],
+			[
+				-7.0,
+				1.0
+			]
+		],
+		"version": 1.0
+	}
+}

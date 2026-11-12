@@ -1,24 +1,32 @@
 # Acceptance — Tideline Tow 1.0.0
 
-Work is in progress. This document is updated from observed results; pending rows are not passes. Android is primary. No Google Play publication is performed.
+Updated 12 November 2026. Android is the primary target. Results below distinguish the tested revision and environment; a pending check is not a pass.
 
-| Area | Evidence status |
-|---|---|
-| Asset/license inspection | Watercraft/Nature/Pirate/UI and audio packs inspected; final notice audit pending |
-| Original audio files | Eleven assets pass audio integrity/provenance checks; human listening pending |
-| Model/campaign feasibility | Earlier 30/30 baseline contracts pass; final tow-spacing revision must be re-tested |
-| Saves, rewards and daily claims | Earlier source checks pass; final revision checks pending |
-| UI/lifecycle | 29 assertions passed; final revision re-run pending |
-| Services logic | PASS: 57 scripted fixture assertions, zero failures; native SDK behavior separately pending |
-| Rendered phone and tablet game | FAILED first layout review; home fixed, gameplay timer/tow spacing being corrected; final captures pending |
-| Android AAB and installable APK | Pending build |
-| Native core loop and cold progress | Emulator boot/GLES3 PASS; application acceptance NOT RUN |
-| Native test advertising | Pending; presentation, earned callback and dismissal are separate checks |
-| Web play and persistence | Pending browser acceptance |
-| Public commit and hosted CI | Initial scaffold public; final code/CI pending |
+Tested runtime revision: `7b001133ef71903209ec713c1dd3e4218334d329`. Sequential exports completed for the ordinary debug APK, diagnostic acceptance APK, debug AAB and Web. Their exact hashes are in [build-evidence.json](build-evidence.json). Later documentation/workflow commits preserve the canonical runtime identity in that receipt.
 
-The implementation review identified hidden rescue cues, wave-added ferry rendering, analog tow trail accumulation and initial ferry placement. These are being corrected and require re-testing before handoff.
+| Area | Status | Observed evidence and limits |
+|---|---|---|
+| Model and authored contracts | PASS | 145/145 checks. All 30 contracts completed cleanly by the baseline strategy without upgrades or ads, in 8.4–77.9 seconds. This establishes feasibility, not human difficulty acceptance. |
+| Saves, economy and daily claims | PASS | Model/UI coverage includes atomic saves, genuine backup recovery, carrying-run cold load, once-only settlement, UTC rollover/rollback, repeated claims and failed-write transaction rollback. |
+| UI and lifecycle | PASS | 49/49 checks after the earned-rescue display fix. Earlier complete run: 43/43. Includes pause/Back, saved-run replacement, deadline display, wave visuals and repaired-state refresh while paused. |
+| Services logic | PASS | 57/57 scripted platform fixtures. Native SDK presentation and backend operation require separate evidence. |
+| Audio files | PASS | 78 integrity/provenance checks. Human listening and device audio quality are NOT RUN. |
+| Content and store assets | PASS | Content validation covers 27 runtime captures, 20 achievement icons/definitions and three leaderboard icons/definitions, plus supplied branding and notices. |
+| Rendered phone/tablet layouts | PASS | Nine genuine implemented views for each phone, 7-inch and 10-inch runtime profile. Visual iterations fixed HUD, convoy, obstacle scale and Home-label issues. These are desktop runtime profiles, not physical tablets. |
+| Android packaging, final runtime | PASS | Final AAB inspection verified six ELF libraries across ARM64, x86 and x86_64. All three native packages contain sample ad configuration, disabled blank PGS and notices, with no test suites, marketing files or signing material. Package/version: `com.ethannyakabuski.tidelinetow`, 1.0.0 (1); min API 24, target 36. These are debug artifacts, not production signing or Play release acceptance. |
+| Native core loop, final runtime | PASS | API 30 x86 Pixel 3a emulator, GLES3. Three actual scripted contracts won: 561/340/352 points, seven total deliveries, 328 coins and 260 XP. A fourth encountered real collision failure. The native steering probe is a simple nearest-boat driver; all-30-contract feasibility uses a separate route-planning test. This is not human difficulty acceptance. |
+| Ordinary APK touch path and cold save | PASS | Direct ADB water/helm input collected and delivered one boat for 100 points with full hull. Android Back paused and saved. Process restart preserved the exact run, position, score and delivery. The ordinary export ignored acceptance configuration. See [native acceptance](NATIVE_ACCEPTANCE.md). |
+| Native rewarded journey, revision `1305a04` | PASS | Real test-ad presentation, earned callback, dismissal, neutral pause, cold recovery and explicit-resume victory were observed. This journey exposed the stale paused HUD fixed in `7b001133`. It does not prove early-close/no-earned or all consent-region cases. |
+| Native banner and interstitial, final runtime | PASS | Real sample banner visibly presented on Home/results. First eligible result skipped an unavailable interstitial. The sixth cumulative finalized round presented a real sample interstitial and returned to the settled result after its visible Close button. Two initial round counts were seeded, followed by three real wins and a real failed watch; this is not six fresh played rounds. |
+| Native no-earned reward closure, final runtime | PASS | A visible sample rewarded ad was closed without an earned callback. No repair, currency or continuation was granted. Failure state and `continued=false` survived cold restart. |
+| Native earned continuation, final runtime | PASS | Real SDK earned callback persisted `continued=true`/hull 2 while fullscreen remained open. Dismissal showed the corrected two-heart/0:45 HUD and neutral Resume dialog. Cold restart retained the same run; explicit Resume won with three deliveries, 561 points, 162 coins and 100 XP. |
+| Web static delivery | PASS | HTTP checks successfully retrieved 56 required resources. This does not establish interactive browser play or persistence. |
+| Interactive Web play and persistence | NOT RUN YET | The earlier personal-browser attempt was cancelled before game navigation and was not repeated. A separately authorized isolated cloud browser will perform live acceptance after deployment. |
+| Hosted CI, final runtime | PASS | [Run 43278416127](https://github.com/EthannYakabuski/tideline-tow/actions/runs/43278416127), commit `50e24032ddacc03b73b16cf0ebba29ab2c59874b`: model 145/145, UI 49/49, platform 57/57, audio 78, content validation, Web export and artifact upload passed. Runtime matches `7b001133`; Pages deployment was skipped. |
+| Final review/evidence publication | APPROVED / IN PROGRESS | The owner explicitly approved the final package publication on 12 November 2026. The 33 staged files were re-audited; runtime files are unchanged. Exact pushed revision and CI will be verified before handoff. Earlier rejected commands did not execute. |
+| Live GitHub Pages deployment | ENABLED / DEPLOYMENT PENDING | The owner explicitly approved Pages. The repository now uses Actions deployment, HTTPS is enforced and `PAGES_DEPLOY_ENABLED=true`. The prepared workflow must finish and live responses must be checked before claiming deployment success. |
+| Physical devices and production services | NOT RUN | Physical touch, accessibility, sustained performance, production AdMob/Play Games IDs, backend resources and release signing remain owner checks/configuration. |
 
-Physical-device touch, accessibility, audio listening, thermal/battery performance and human difficulty assessment require owner testing. Production AdMob/Play Games IDs, signing, backend resources, consent regions, support/policy URLs and store forms remain owner configuration. Local offline saves are supported; remote cloud-save synchronization is outside this prototype.
+Local automated logs are retained under ignored `build/final-tests/`; the latest UI result is in `build/qa/ui-reward-refresh.log`. [build-evidence.json](build-evidence.json) records build identities as they become verified. See [BUG_LOG.md](BUG_LOG.md), [SCREENSHOTS.md](SCREENSHOTS.md), [WEB_ACCEPTANCE.md](WEB_ACCEPTANCE.md) and [PLATFORM_SETUP.md](PLATFORM_SETUP.md) for scope and reproduction details.
 
-Final source commit, file hashes and artifact hashes will be recorded in `build-evidence.json`. Screenshot provenance will distinguish desktop runtime sizing from Android emulator and physical-device evidence.
+The emulator's SystemUI ANR is tracked separately from game defects. Original music still requires listening, and human pacing/difficulty remains unassessed. Production consent-region testing, support/privacy URLs, store forms and Google Play publication remain owner work. Local offline saves are implemented; remote cloud-save synchronization is outside this prototype. No Google Play publication was performed.

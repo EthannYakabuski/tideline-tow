@@ -1,0 +1,39 @@
+TIDELINE TOW - 12 NOVEMBER 2026
+
+Playable Android prototype: steer a tug, grow a visible convoy, bring boats home. Thirty contracts, three districts, endless/daily modes, offline progress, upgrades, daily gifts/goals, 20 achievements and 3 leaderboards. Original music and generated branding complement licensed Kenney models, UI, stars and sounds.
+
+Source: https://github.com/EthannYakabuski/tideline-tow
+Tested runtime: 7b001133ef71903209ec713c1dd3e4218334d329
+Canonical runtime Git-blob SHA256: 4f97ff49af249f70c693119aeba99f0ec7eb1e8afadf49e5fdde0cc6ba5672ba
+Previously verified public revision: 50e24032ddacc03b73b16cf0ebba29ab2c59874b; CI run 43278416127 passed validation. The owner explicitly approved final evidence publication and Pages on 12 November 2026. Final publication/deployment verification is in progress; runtime files remain identical to the tested runtime.
+
+LOCAL DELIVERABLES
+build/android/tideline-tow-test.apk - ordinary installable debug APK
+build/android/tideline-tow-debug.aab - debug Android App Bundle
+build/android/tideline-tow-acceptance.apk - diagnostic fixture build; do not distribute
+build/site/play/ - exported Web game
+build/site/review/index.html - styled review with local artwork and actual captures
+marketing/ - store copy/tags, icon/splash/feature art, 20 achievement/3 leaderboard definitions and icons, 27 desktop profile captures plus 4 Android emulator captures
+docs/build-evidence.json - exact source/artifact hashes
+docs/ACCEPTANCE.md, NATIVE_ACCEPTANCE.md, WEB_ACCEPTANCE.md, SCREENSHOTS.md, BUG_LOG.md - observed results and limits
+
+The ordinary APK SHA256 is 4233f7a76b2ca6016c8e2714de0c116936d2745901bcbab42729943b69d73026.
+The debug AAB SHA256 is 2d23f35fbd3454c52f34ec5619a6aef3c56ee2a52edc35bbf9e1706749a84e41.
+
+REVIEW LOCALLY
+From the repository root, run:
+python tools/assemble_site.py build/site
+python -m http.server 8872 --bind 127.0.0.1 --directory build/site
+Use http://127.0.0.1:8872/review/ or /play/ while that server is running. The prepared HTML can be opened directly for artwork/screenshots; Godot Web needs HTTP serving.
+
+OBSERVED VALIDATION
+145/145 model checks (all 30 authored contracts clean), 49/49 UI/lifecycle, 57/57 service fixtures, 78 audio-file assertions, content/license and native ABI checks pass. Final Android emulator checks include actual contracts, banner/interstitial presentation and dismissal, no-earned reward closure, earned callback, corrected paused HUD, cold recovery and explicit-resume victory. The ordinary APK also accepts real ADB touch controls and Android Back; this is not physical-device or human difficulty acceptance.
+
+REMAINING LIMITS
+The earlier personal-browser attempt was cancelled before game navigation and was not repeated. A separately authorized isolated cloud browser will check the live game after deployment. Local HTTP/static references pass. GitHub Pages is now enabled with Actions and HTTPS; live responses and the exact deployed revision still require verification.
+
+The earlier publication restrictions were resolved by explicit owner approval. No Google Play publication is authorized or performed. Final repository, Pages and CI identities will be recorded after verification.
+
+Use only sample AdMob IDs until the owner supplies production configuration. Play Games is integrated but deliberately disabled with blank app, 20 achievement and 3 leaderboard IDs. Owner work: backend IDs/testers/signing, consent-region and production-service testing, policy/support/store forms, physical touch/audio/accessibility/performance and human playtesting. No Google Play publication or purchase occurred. See docs/PLATFORM_SETUP.md.
+
+Original work is Apache-2.0; third-party notices are preserved. Substantive creation was explicitly selected as gpt-6-astra with ultra reasoning; the collaboration spawn accepted that selection, but did not expose independent backend-execution metadata.

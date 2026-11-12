@@ -1,0 +1,134 @@
+{
+  "runtime_commit": "7b001133ef71903209ec713c1dd3e4218334d329",
+  "apk_sha256": {
+    "acceptance": "b5a08c40bafa33bb37d2c2184931f0cf4a32096dc6cee1675afc947e75914fbc",
+    "ordinary": "4233f7a76b2ca6016c8e2714de0c116936d2745901bcbab42729943b69d73026"
+  },
+  "environment": "Pixel 3a API30 x86 emulator, GLES3; not physical-device testing",
+  "provenance": "Existing task-created isolated profiles. JSON scenario names reflect reused probes; use the documented journey and file names. Interstitial history includes two seeded prior rounds, three actual wins and one failed watch. Ordinary profiles use real ADB touch input without the autopilot. PNGs are original unmodified captures. No raw network/ad logs or owner progress are included.",
+  "assertions_passed": 50,
+  "checks": [
+    "v2-no-reward-after-dismissal.json isolated acceptance profile",
+    "v2-interstitial-open.json isolated acceptance profile",
+    "v2-interstitial-after-dismissal.json isolated acceptance profile",
+    "v2-reward-earned-open.json isolated acceptance profile",
+    "v2-reward-after-dismissal.json isolated acceptance profile",
+    "v2-reward-cold.json isolated acceptance profile",
+    "v2-reward-after-resume.json isolated acceptance profile",
+    "no-earned closure retains failure",
+    "no-earned closure grants no continuation",
+    "no earned callback in no-reward journey",
+    "real sixth-result interstitial open",
+    "real interstitial dismissal",
+    "interstitial dismissal preserves settlement",
+    "sixth-result payout remains committed",
+    "earned callback keeps fullscreen pause",
+    "one real earned callback recorded",
+    "earned recovery repairs exactly once",
+    "earned recovery grants 45 seconds",
+    "dismissal requires neutral resume",
+    "reward dismissal callback observed",
+    "reward dismissal does not advance game",
+    "cold restart retains all persistent earned state",
+    "cold restart clears transient fail event",
+    "resumed victory belongs to same run",
+    "resumed real rescue victory",
+    "continued flag survives completed rescue",
+    "resumed victory pays once",
+    "single durable settlement identity",
+    "ordinary-controls-profile.json checksum",
+    "ordinary-cold-profile.json checksum",
+    "ordinary touch-driven run survives cold restart",
+    "ordinary real touch input delivered a boat",
+    "ordinary parked rescue remains resumable",
+    "acceptance APK receipt identity",
+    "ordinary APK receipt identity",
+    "tested runtime receipt identity",
+    "v2-no-reward-after-dismissal.json copied byte-for-byte",
+    "v2-interstitial-open.json copied byte-for-byte",
+    "v2-interstitial-after-dismissal.json copied byte-for-byte",
+    "v2-reward-earned-open.json copied byte-for-byte",
+    "v2-reward-after-dismissal.json copied byte-for-byte",
+    "v2-reward-cold.json copied byte-for-byte",
+    "v2-reward-after-resume.json copied byte-for-byte",
+    "ordinary-controls-profile.json copied byte-for-byte",
+    "ordinary-cold-profile.json copied byte-for-byte",
+    "v2-repaired-hud.png copied byte-for-byte",
+    "v2-interstitial-close-ready.png copied byte-for-byte",
+    "v2-reward-cold-paused.png copied byte-for-byte",
+    "ordinary-helm-delivery.png copied byte-for-byte",
+    "ordinary-cold-home.png copied byte-for-byte"
+  ],
+  "files": [
+    {
+      "file": "v2-no-reward-after-dismissal.json",
+      "bytes": 69460,
+      "sha256": "5cf6462464551b6710cefc911e46b6ad4cbbb10970609e33dbf385fd7f812dca"
+    },
+    {
+      "file": "v2-interstitial-open.json",
+      "bytes": 32899,
+      "sha256": "9355f38c5e5a694899322ef5bec01356e895ca036361be4c217d2a3f4f6c65f7"
+    },
+    {
+      "file": "v2-interstitial-after-dismissal.json",
+      "bytes": 32948,
+      "sha256": "afb312bb74ef3cd385fa4319ca9ff6b007eb8cff2282dc74503acb9cc40b16b7"
+    },
+    {
+      "file": "v2-reward-earned-open.json",
+      "bytes": 3616,
+      "sha256": "500655135571438b6afc636b60e3bd91c6200b3e1c08f96d4ccef1b62a2a9f53"
+    },
+    {
+      "file": "v2-reward-after-dismissal.json",
+      "bytes": 3662,
+      "sha256": "eb7fa68f23745188931d841464aee9ae47d8552ce6c96f5a9e56ac24d036f90b"
+    },
+    {
+      "file": "v2-reward-cold.json",
+      "bytes": 3569,
+      "sha256": "18f585a07c90a2507302d82f87e74074ba568d1eb55700728a9cb49dcdf4d2c0"
+    },
+    {
+      "file": "v2-reward-after-resume.json",
+      "bytes": 30123,
+      "sha256": "f0dfa1910e6c3afec5889b1764114570d559c24e68639a88d0246e39e647b19d"
+    },
+    {
+      "file": "ordinary-controls-profile.json",
+      "bytes": 17720,
+      "sha256": "dba571158f57ecece44fbf43597f7bed77c61a5f759ec2f604b9c7d30ef00dd8"
+    },
+    {
+      "file": "ordinary-cold-profile.json",
+      "bytes": 17720,
+      "sha256": "dba571158f57ecece44fbf43597f7bed77c61a5f759ec2f604b9c7d30ef00dd8"
+    },
+    {
+      "file": "v2-repaired-hud.png",
+      "bytes": 424272,
+      "sha256": "e96a7835ce309fe8d327d1c904a70db5272875b925977457720244df81a5a761"
+    },
+    {
+      "file": "v2-interstitial-close-ready.png",
+      "bytes": 373015,
+      "sha256": "58a62104e2c16825d1c474798ee2040cbe042d888b7b5016066659417c997edb"
+    },
+    {
+      "file": "v2-reward-cold-paused.png",
+      "bytes": 395861,
+      "sha256": "fb75892dcf92e8b0558453fcb5bec3c8d20686206ac69d2c58b27d24cbd6bff0"
+    },
+    {
+      "file": "ordinary-helm-delivery.png",
+      "bytes": 409838,
+      "sha256": "f8f55bf27b2893d7c838b87e5119d9a82e1e79c157204e39d5e9c71fb3bd2f6a"
+    },
+    {
+      "file": "ordinary-cold-home.png",
+      "bytes": 921705,
+      "sha256": "b2d5d74c0430a3ef0542d4c73daad8da4592e0d55570d9dc121fa03ec369606f"
+    }
+  ]
+}

@@ -53,6 +53,7 @@ jobs:
           python3 tools/validate_audio.py
           python3 tools/verify_android_bundle.py
           python3 tools/validate_content.py
+          python3 tools/audit_public.py
           Godot_v4.5.1-stable_linux.x86_64 --headless --path . --export-release Web build/site/play/index.html
           python3 tools/assemble_site.py build/site
       - uses: actions/upload-pages-artifact@v3
