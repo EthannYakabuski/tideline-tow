@@ -125,12 +125,31 @@ func _run() -> void:
 	for node in app.harbor.boat_nodes.values():
 		check(node.scale.is_equal_approx(Vector3.ONE),"new wave boats full scale after delivery")
 	app.start_run("campaign",0,true)
+	app.model.step(0.5,Vector2.RIGHT)
 	for i in 700:
 		app.model.step(0.1,Vector2.ZERO)
 	check(app.model.state.status=="failed","watch can timeout")
+	app.harbor.sync(app.model.state)
+	app.update_hud()
 	app.show_failure()
 	app.request_continue()
 	check(not app.model.state.continued,"unavailable QA service never fabricates reward")
+	# Explicit callback fixture checks immediate presentation; no native ad is simulated as evidence.
+	app.reward_pending=true
+	app._fullscreen_changed(true)
+	var reward_run_id:String=app.model.state.run_id
+	app._reward_earned(reward_run_id)
+	check(app.model.state.continued and app.model.state.hull==2,"earned callback repairs the failed tug")
+	check(app.hud_time.text=="0:45","earned callback immediately refreshes remaining time under pause")
+	check(app.hud_hearts.text=="\u2665\u2665\u2661","earned callback immediately refreshes two filled hull hearts")
+	check(Vector2(app.harbor.player.position.x,app.harbor.player.position.z).is_equal_approx(Vector2(0,7)),"earned callback immediately shows recovered harbor position")
+	var repaired_elapsed:float=app.model.state.elapsed
+	app._process(0.5)
+	check(app.ad_locked and app.pause_reason=="ad_return" and app.model.state.elapsed==repaired_elapsed,"presentation refresh does not resume behind the fullscreen ad")
+	app._reward_finished(reward_run_id,true)
+	app._fullscreen_changed(false)
+	app._process(0.5)
+	check(not app.pause_reason.is_empty() and app.model.state.elapsed==repaired_elapsed,"dismissed rewarded ad still requires neutral resume")
 	app.queue_free()
 	await process_frame
 	await process_frame

@@ -603,6 +603,8 @@ func _reward_earned(run_id: String) -> void:
 	if model.revive():
 		persist_run()
 		pause_reason="ad_return"
+		harbor.sync(model.state)
+		update_hud()
 		if not probe.is_empty():
 			probe_events.append({"event":"real_reward_earned","run_id":run_id})
 
